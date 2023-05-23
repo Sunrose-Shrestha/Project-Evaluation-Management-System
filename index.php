@@ -93,7 +93,7 @@
         <div class="carousel-item active" style="background-image: url(assets/cmrit.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">WELCOME TO <span>PROJECT EVALUATION AND MANAGEMENT SYSTEM</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">WELCOME TO COME -  <br> <span>COLLECT, ORGANIZE, EVALUATE & MANAGEMENT SYSTEM</span></h2>
               <p class="animate__animated animate__fadeInUp"></p>
               <!--<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">login</a>-->
             </div>
