@@ -78,7 +78,7 @@ if (isset($_SESSION["email"])) {
 
           <li><a href="project-details.php" onclick="#endForm()" class="nav-link scrollto"><i class="bi bi-graph-up"></i> <span> Submit Project Titles</span></a></li>
 
-          <li><a href="#" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li><br><br>
+          <li><a href="#" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li><br><br><br>
 
           <li style="font-size:20px;padding-left:14px; padding-top:10px;color:white;"><p>🔔 Notice !!!
               </p><br>
@@ -88,9 +88,9 @@ if (isset($_SESSION["email"])) {
                 while($row=mysqli_fetch_assoc($result2))
                 {
                   $project_title = $row['projecttitle'];
-                  echo $sn++.". Project ".$project_title." is rejected.\n";
+                  echo nl2br($sn++.". Project ".$project_title." is rejected.\n");
                 }
-                ?>
+                ?> 
               </p>
           </li>
         </ul>
